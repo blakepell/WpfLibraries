@@ -8,14 +8,6 @@ to be updated to .NET Core.
 
 **MvvmFoundation** - [https://www.nuget.org/packages/MvvmFoundation](https://www.nuget.org/packages/MvvmFoundation)
 
-### Supported Targets:
-
- - .NET 7.0
- - .NET 6.0
- - .NET Framework 4.8
- - .NET Framework 4.6.2
- - .NET Framework 3.5
-
 ### Project Description
 
 MVVM Foundation is a library of classes that are very useful when building applications based on the Model-View-ViewModel philosophy. The library is small and concentrated on providing only the most indispensable tools needed by most MVVM application developers.
@@ -29,3 +21,7 @@ Model-View-ViewModel is a way of creating client applications that leverages cor
 **PropertyObserver** - A standardized way to handle the INotifyPropertyChanged.PropertyChanged event of other objects. This class uses weak references and the weak-event pattern to prevent memory leaks.
 
 **Messenger** - The Messenger class is a lightweight way of passing messages between various ViewModel objects who do not need to be aware of each other. This is based on the Mediator implementation created by Marlon Grech and Josh Smith, as seen on Marlon's blog.
+
+### License
+
+Microsoft Public License (Ms-PL)

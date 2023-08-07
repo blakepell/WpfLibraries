@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>Transitionals</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>Blake Pell</Authors>
+        <Company>http://www.blakepell.com</Company>
+        <TargetFrameworks>net3.5;net462;net48;net6.0-windows;net7.0-windows</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <Version>2023.8.6.1</Version>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes />
+        <LangVersion>latest</LangVersion>
+        <Product>Transitionals WPF Library</Product>
+        <Description>.NET Core (and .NET Framework) version of Transitionals.  This library provides animated transitions between objects.</Description>
+        <PackageProjectUrl>https://github.com/blakepell/WpfLibraries</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/blakepell/WpfLibraries</RepositoryUrl>
+        <PackageIconUrl></PackageIconUrl>
+        <PackageTags>transitionals transitions wpf flip animation</PackageTags>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageId>Transitionals</PackageId>
+        <AssemblyName>Transitionals</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Transitions\Images\star.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Transitions\Images\star.png" />
+    </ItemGroup>
+</Project>

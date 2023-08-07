@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <UseWindowsForms>true</UseWindowsForms>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Application.ico" />
+        <None Remove="Properties.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Transitionals\Transitionals.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Resource Include="Application.ico" />
+        <Resource Include="Properties.png" />
+    </ItemGroup>
+
+</Project>
