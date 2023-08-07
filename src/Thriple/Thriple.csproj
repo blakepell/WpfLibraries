@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <RootNamespace>Thriple</RootNamespace>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -20,7 +20,7 @@
         <PackageTags>thriple wpf 3D flip</PackageTags>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageId>Thriple</PackageId>
+        <PackageId>Thriple.Core</PackageId>
         <AssemblyName>Thriple</AssemblyName>
     </PropertyGroup>
 </Project>
