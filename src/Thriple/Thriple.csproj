@@ -14,10 +14,10 @@
         <LangVersion>latest</LangVersion>
         <Product>Thriple 3D WPF Library</Product>
         <Description>.NET Core (and .NET Framework) version of Thriple.  Thriple was originally written by Josh Smith.</Description>
-        <PackageProjectUrl>https://github.com/blakepell/MvvmFoundation.Wpf</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/blakepell/MvvmFoundation.Wpf</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/blakepell/WpfLibraries</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/blakepell/WpfLibraries</RepositoryUrl>
         <PackageIconUrl></PackageIconUrl>
-        <PackageTags>thriple wpf 3D</PackageTags>
+        <PackageTags>thriple wpf 3D flip</PackageTags>
         <NeutralLanguage>en-US</NeutralLanguage>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageId>Thriple</PackageId>
