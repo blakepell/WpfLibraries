@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>Thriple</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <Authors>Blake Pell</Authors>
+        <Company>http://www.blakepell.com</Company>
+        <TargetFrameworks>net3.5;net462;net48;net6.0-windows;net7.0-windows</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <Version>2023.8.6.1</Version>
+        <RepositoryType>git</RepositoryType>
+        <PackageReleaseNotes />
+        <LangVersion>latest</LangVersion>
+        <Product>Thriple 3D WPF Library</Product>
+        <Description>.NET Core (and .NET Framework) version of Thriple.  Thriple was originally written by Josh Smith.</Description>
+        <PackageProjectUrl>https://github.com/blakepell/MvvmFoundation.Wpf</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/blakepell/MvvmFoundation.Wpf</RepositoryUrl>
+        <PackageIconUrl></PackageIconUrl>
+        <PackageTags>thriple wpf 3D</PackageTags>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageId>Thriple</PackageId>
+        <AssemblyName>Thriple</AssemblyName>
+    </PropertyGroup>
+</Project>
