@@ -19,7 +19,7 @@
         <PackageIconUrl></PackageIconUrl>
         <PackageTags>mvvm wpf mvvmfoundation</PackageTags>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
         <PackageId>MvvmFoundation</PackageId>
         <AssemblyName>MvvmFoundation.Wpf</AssemblyName>
     </PropertyGroup>

@@ -1,5 +1,9 @@
 # Thriple
 
+### Nuget Package
+
+**Thriple** - [https://www.nuget.org/packages/Thriple.Core](https://www.nuget.org/packages/Thriple.Core)
+
 ### Project Description
 
 Thriple is a library of 3D controls and panels, for use in WPF applications. These reusable components make it easy to incorporate 3D in your user interfaces. Each component in the library is accompanied by sample applications, which allow you to experiment with them.
@@ -25,3 +29,7 @@ Thriple consists of a class library (DLL) which contains some 3D components, and
 The ContentControl3D_Demo project contains various samples that show how to configure ContentControl3D. A screenshot of the 'Property Explorer' sample is seen below:
 
 Both Panel3D and ContentControl3D are put to use in the WPF Disciples Blog Roll 3D application. Each blogger's information is hosted in a ContentControl3D, with their photo and a button that opens their blog on the front side, and more information about that blogger on the back side. Those controls are, in turn, hosted in a ListBox whose ItemsPanel is a Panel3D. The net result of this UI design is that you have tiles rotating in 3D along the Y axis, and moving in/out of view along the X, Y, and Z axis. A screenshot of that demo application is below:
+
+### License
+
+Microsoft Public License (Ms-PL)

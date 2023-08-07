@@ -19,7 +19,7 @@
         <PackageIconUrl></PackageIconUrl>
         <PackageTags>thriple wpf 3D flip</PackageTags>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
         <PackageId>Thriple.Core</PackageId>
         <AssemblyName>Thriple</AssemblyName>
     </PropertyGroup>

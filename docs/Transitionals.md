@@ -1,5 +1,11 @@
 # Transitionals
 
+### Nuget Package
+
+**Transitionals** - [https://www.nuget.org/packages/Transitionals](https://www.nuget.org/packages/Transitionals)
+
+### Overview
+
 Transitionals is a framework that allows more than one piece of graphical content to share the same space in an applications user interface. It does this by providing a set of controls and an extensible library of animations that allow the user to switch between these pieces of content dynamically at run time.
 
 An application that wishes to use transitions can start by defining a placeholder in the UI where shared content will be hosted. For the initial design any placeholder will do. A static image or even an empty panel is enough to get you started building the surrounding UI. When it's time to actually start hosting content you'll need to decide how that content will be shown and how it will be navigated. After these questions are answered, choose a transition-aware control to put in place of your temporary content.

@@ -19,7 +19,7 @@
         <PackageIconUrl></PackageIconUrl>
         <PackageTags>transitionals transitions wpf flip animation</PackageTags>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
         <PackageId>Transitionals</PackageId>
         <AssemblyName>Transitionals</AssemblyName>
     </PropertyGroup>
