@@ -6,9 +6,8 @@ using System.Reflection;
 namespace MvvmFoundation.Wpf
 {
     /// <summary>
-    /// Provides loosely-coupled messaging between
-    /// various colleague objects.  All references to objects
-    /// are stored weakly, to prevent memory leaks.
+    /// Provides loosely-coupled messaging between various colleague objects.  All references
+    /// to objects are stored weakly, to prevent memory leaks.
     /// </summary>
     public class Messenger
     {
@@ -96,6 +95,7 @@ namespace MvvmFoundation.Wpf
             }
 
             var actions = _messageToActionsMap.GetActions(message);
+
             if (actions != null)
             {
                 actions.ForEach(action => action.DynamicInvoke(parameter));
