@@ -1,8 +1,6 @@
 # MvvmFoundation.Wpf
 
-This library is a .NET Core port of the MvvmFoundation.Wpf library that used to exist on CodePlex and was written by
-Josh Smith.  It has been updated to additionally support .NET Core targets for the purpose of allowing old projects that use it
-to be updated to .NET Core.
+This library is an updated .NET Core port of the MvvmFoundation.Wpf library, originally hosted on CodePlex. It now extends its support to .NET Core targets as well as the legacy .NET Framework ones.
 
 ### Nuget Package
 
@@ -21,6 +19,10 @@ Model-View-ViewModel is a way of creating client applications that leverages cor
 **PropertyObserver** - A standardized way to handle the INotifyPropertyChanged.PropertyChanged event of other objects. This class uses weak references and the weak-event pattern to prevent memory leaks.
 
 **Messenger** - The Messenger class is a lightweight way of passing messages between various ViewModel objects who do not need to be aware of each other. This is based on the Mediator implementation created by Marlon Grech and Josh Smith, as seen on Marlon's blog.
+
+### Credits
+
+This library was originally written by Josh Smith, author of (Advanced MVVM)[https://joshsmithonwpf.wordpress.com/advanced-mvvm/] (which even being 13 years old now is an excellent resource on implementing the MVVM pattern in WPF).
 
 ### License
 

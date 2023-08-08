@@ -30,6 +30,10 @@ The ContentControl3D_Demo project contains various samples that show how to conf
 
 Both Panel3D and ContentControl3D are put to use in the WPF Disciples Blog Roll 3D application. Each blogger's information is hosted in a ContentControl3D, with their photo and a button that opens their blog on the front side, and more information about that blogger on the back side. Those controls are, in turn, hosted in a ListBox whose ItemsPanel is a Panel3D. The net result of this UI design is that you have tiles rotating in 3D along the Y axis, and moving in/out of view along the X, Y, and Z axis. A screenshot of that demo application is below:
 
+### Credits
+
+This library was originally written by Josh Smith, author of (Advanced MVVM)[https://joshsmithonwpf.wordpress.com/advanced-mvvm/] (which even being 13 years old now is an excellent resource on implementing the MVVM pattern in WPF).
+
 ### License
 
 Microsoft Public License (Ms-PL)
