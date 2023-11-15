@@ -5,10 +5,10 @@
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Authors>Blake Pell</Authors>
         <Company>http://www.blakepell.com</Company>
-        <TargetFrameworks>net3.5;net462;net48;net6.0-windows;net7.0-windows</TargetFrameworks>
+        <TargetFrameworks>net3.5;net462;net48;net6.0-windows;net7.0-windows;.net8.0-windows</TargetFrameworks>
         <Nullable>enable</Nullable>
         <UseWPF>true</UseWPF>
-        <Version>2023.8.6.1</Version>
+        <Version>2023.11.15.1</Version>
         <RepositoryType>git</RepositoryType>
         <PackageReleaseNotes />
         <LangVersion>latest</LangVersion>
