@@ -12,6 +12,7 @@ The project includes a collection legacy WPF libraries that have been converted 
 
 These libraries have been updated to support the latest .NET Core targets.  When possible, legacy target frameworks are also left to allow for the widest range of usage from whatever target you're using, whether it be an old .NET Framework 3.5 app from 2007 or a .NET 7 app from 2023.  In general this is the base set of targets I'm compiling the released Nuget packages for.  This makes it a requirement to have these SDK's or targeting packs installed in order to build (as of the writing of this these are all supported versions of .NET or .NET Framework).
 
+ - .NET 8.0
  - .NET 7.0
  - .NET 6.0
  - .NET Framework 4.8
