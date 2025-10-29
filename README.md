@@ -4,9 +4,12 @@ The project includes a collection legacy WPF libraries that have been converted 
 
 ## Libaries
 
-- [MvvmFoundation.Wpf](docs/MvvmFoundation.Wpf.md) : Simple MVVM Library for WPF
-- [Thriple](docs/Thriple.md) : 3D Control Library
-- [Transitionals](docs/Transitionals.md) : Transition Animations between visual controls.
+| Library | Nuget | Description |
+| ------- | ----- | ----------- |
+| [MvvmFoundation.Wpf](docs/MvvmFoundation.Wpf.md) | [![Version 2023.11.15.1](https://img.shields.io/badge/version-2023.11.15.1-blue.svg)](https://www.nuget.org/packages/MvvmFoundation) | Simple MVVM Library for WPF |
+| [Thriple](docs/Thriple.md) | [![Version 2023.11.15.1](https://img.shields.io/badge/version-2023.11.15.1-blue.svg)](https://www.nuget.org/packages/Thriple.Core) | 3D Control Library |
+| [Transitionals](docs/Transitionals.md) | [![Version 2023.11.15.1](https://img.shields.io/badge/version-2023.11.15.1-blue.svg)](https://www.nuget.org/packages/Transitionals) | Transition Animations between visual controls. |
+
 
 ## Supported Targets
 
