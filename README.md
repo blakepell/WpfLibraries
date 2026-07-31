@@ -6,15 +6,16 @@ The project includes a collection legacy WPF libraries that have been converted 
 
 | Library | Nuget | Description |
 | ------- | ----- | ----------- |
-| [MvvmFoundation.Wpf](docs/MvvmFoundation.Wpf.md) | [![Version 2023.11.15.1](https://img.shields.io/badge/version-2023.11.15.1-blue.svg)](https://www.nuget.org/packages/MvvmFoundation) | Simple MVVM Library for WPF |
-| [Thriple](docs/Thriple.md) | [![Version 2023.11.15.1](https://img.shields.io/badge/version-2023.11.15.1-blue.svg)](https://www.nuget.org/packages/Thriple.Core) | 3D Control Library |
-| [Transitionals](docs/Transitionals.md) | [![Version 2023.11.15.1](https://img.shields.io/badge/version-2023.11.15.1-blue.svg)](https://www.nuget.org/packages/Transitionals) | Transition Animations between visual controls. |
+| [MvvmFoundation.Wpf](docs/MvvmFoundation.Wpf.md) | [![Version 2026.7.31.1](https://img.shields.io/badge/version-2026.7.31.1-blue.svg)](https://www.nuget.org/packages/MvvmFoundation) | Simple MVVM Library for WPF |
+| [Thriple](docs/Thriple.md) | [![Version 2026.7.31.1](https://img.shields.io/badge/version-2026.7.31.1-blue.svg)](https://www.nuget.org/packages/Thriple.Core) | 3D Control Library |
+| [Transitionals](docs/Transitionals.md) | [![Version 2026.7.31.1](https://img.shields.io/badge/version-2026.7.31.1-blue.svg)](https://www.nuget.org/packages/Transitionals) | Transition Animations between visual controls. |
 
 
 ## Supported Targets
 
 These libraries have been updated to support the latest .NET Core targets.  When possible, legacy target frameworks are also left to allow for the widest range of usage from whatever target you're using, whether it be an old .NET Framework 3.5 app from 2007 or a .NET 7 app from 2023.  In general this is the base set of targets I'm compiling the released Nuget packages for.  This makes it a requirement to have these SDK's or targeting packs installed in order to build (as of the writing of this these are all supported versions of .NET or .NET Framework).
 
+ - .NET 10.0
  - .NET 8.0
  - .NET 7.0
  - .NET 6.0
